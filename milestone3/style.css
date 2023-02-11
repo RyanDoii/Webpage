@@ -1,0 +1,85 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body {
+	background: linear-gradient(-45deg, #f6f6f6, #ffffff, #ffffff, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.containter{
+    color: rgb(128, 128, 128);
+    text-align: center;
+    
+}
+.Header{
+    margin: auto;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#section1{
+    margin-left: 0%;
+    margin-top: 8%;
+}
+#intro{
+    margin-left: 0%;
+}
+#pfp{
+    padding-top: 0%;
+    margin-top: -32%;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+#section2{
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    left: 0px;
+}
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#poo{
+    text-align: center;
+    list-style-position: inside;
+}
+@media screen and (max-width: 1400px) { 
+    #pfp {
+    height: 100px;
+    width: 100px;
+    
+ } 
+}
+@media screen and (max-width: 480px) { 
+    #pfp {
+    height: 100px;
+    width: 100px;
+    margin-top: -16%;
+ } 
+}
+#jumbotron2{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#jumbotron3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(168, 135, 124);
+    color: rgb(255, 255, 255);
+}
